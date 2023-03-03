@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4299e1;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 50px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  position: relative;
+}
+.search input {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+}
+.search input:hover, .search input:focus {
+  box-shadow: 0px 0px 37px 3px rgba(34, 60, 80, 0.4);
+  outline: none;
+}
+.search label {
+  font-size: 14px;
+}
+
+.search-clean-btn {
+  position: absolute;
+  right: 10px;
+  transform: translateY(50%);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.wrap-content {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.main-info {
+  background-color: #1a202c;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-info .temperature-main h3 {
+  font-size: 44px;
+  margin-bottom: 5px;
+}
+.main-info .description-main {
+  width: 150px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.main-info .description-main p:first-child {
+  margin-bottom: 5px;
+}
+.main-info .icon-main {
+  padding-right: 30px;
+}
+
+.week-weather {
+  background-color: #2d3748;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.week-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.week-info .precipitation {
+  width: 120px;
+  text-align: center;
+}
+.week-info .temperature p:first-child {
+  margin-bottom: 5px;
+}/*# sourceMappingURL=style.css.map */

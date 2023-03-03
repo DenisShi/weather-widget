@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="search">
+      <input class="search-input" type="text" name="location" id="location" placeholder="Choose a location" autofocus="on">
+      <div class="search-clean-btn"><img width='12px' src="./img/search-icon.png" alt="search-icon"></div>
+      <label class="search-label" for="">Write any city</label>
+    </div>
+
+    <div class="content">
+      <div class="main-info wrap-content">
+        <div class="temperature-main">
+          <h3>-°C</h3>
+          <p>Feels like -°C</p>
+        </div>
+        <div class="description-main">
+          <p class="precipitation-main"><strong>-</strong></p>
+          <p class="location-main">-</p>
+        </div>
+        <div class="icon-main">
+          <img class="icon-main-img" width="60px" src="./img/weather-forecast.png" alt="cloudy-night">
+        </div>
+      </div>
+      <div class="week-weather wrap-content">
+        <!-- days -->
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
